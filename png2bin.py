@@ -74,7 +74,11 @@ def recover_tests(from_dir):
 #     convert_folder(base_path, "./in", "./bins")
 #     # recover_tests("./outs")
 
+#Write a png image to bin
+image = Image.open("C:\\Users\\qingy\\OneDrive\\Documents\\Year_1\\Sem_2\\ESC190-C\\Project2\\p2_github\\Seam-Carving\\Meric.png")
+write_image(image, "C:\\Users\\qingy\\OneDrive\\Documents\\Year_1\\Sem_2\\ESC190-C\\Project2\\p2_github\\Seam-Carving\\Meric.bin")
+
     # Write multiple images from bin to png
-for i in range(50):
-    image = read_image("C:\\Users\\qingy\\OneDrive\\Documents\\Year_1\\Sem_2\\ESC190-C\\Project2\\p2_github\\Seam-Carving\\carvedImages\\img%d.bin" % i)
-    image.save("C:\\Users\\qingy\\OneDrive\\Documents\\Year_1\\Sem_2\\ESC190-C\\Project2\\p2_github\\Seam-Carving\\carvedImages\\img%d.png" % i)
+# for i in range(50):
+#     image = read_image("C:\\Users\\qingy\\OneDrive\\Documents\\Year_1\\Sem_2\\ESC190-C\\Project2\\p2_github\\Seam-Carving\\carvedImages\\img%d.bin" % i)
+#     image.save("C:\\Users\\qingy\\OneDrive\\Documents\\Year_1\\Sem_2\\ESC190-C\\Project2\\p2_github\\Seam-Carving\\carvedImages\\img%d.png" % i)
