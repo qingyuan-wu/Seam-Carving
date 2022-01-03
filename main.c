@@ -13,9 +13,9 @@ int main(){
     double *best;
     int *path;
 
-    read_in_img(&im, "C:\\Users\\qingy\\OneDrive\\Documents\\Year_1\\Sem_2\\ESC190-C\\Project2\\p2_github\\Seam-Carving\\HJoceanSmall.bin");
+    read_in_img(&im, "HJoceanSmall.bin");
     
-    for(int i = 0; i < 52; i++){
+    for(int i = 0; i < 55; i++){
         printf("i = %d\n", i);
         
         calc_energy(im,  &grad);
@@ -26,7 +26,7 @@ int main(){
         char filename[200];
         sprintf(filename, "img%d.bin", i);
         
-        char filePath[] = "C:\\Users\\qingy\\OneDrive\\Documents\\Year_1\\Sem_2\\ESC190-C\\Project2\\p2_github\\Seam-Carving\\carvedImages\\";
+        char filePath[] = "Carved-Images\\";
         strcat(filePath, filename);
         write_img(cur_im, filePath);
 

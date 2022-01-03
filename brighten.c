@@ -21,17 +21,16 @@ int brighten(float scale, char *imageFile){
             set_pixel(im, i, j, (int)red, (int)green, (int)blue);            
         }
     }
-    printf("hi?\n");
-    write_img(im, "C:\\Users\\qingy\\OneDrive\\Documents\\Year_1\\Sem_2\\ESC190-C\\Project2\\p2_github\\Seam-Carving\\scale1.bin"); // save as .bin
+    write_img(im, "scale1.bin"); // save as .bin
     destroy_image(im);
     return 0;
 }
 
 int main() {
-    char file[200] = "C:\\Users\\qingy\\OneDrive\\Documents\\Year_1\\Sem_2\\ESC190-C\\Project2\\p2_github\\Seam-Carving\\Meric.bin";
+    char file[200] = "Meric.bin";
     float scale = 1.2;
     brighten(scale, file);
-    printf("done\n");
+    printf("Done.\n");
 
     return 0;
 }
