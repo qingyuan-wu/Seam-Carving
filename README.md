@@ -36,9 +36,11 @@ Seam carving is an image-resizing technique that removes one vertical "seam" of 
 Here are the before and after effects of seamcarving an image of people surfing in the ocean:
 
 **Before**
+
 ![image](Carved-Images/img0.png)
 
 **After carving 55 seams**
+
 ![image](Carved-Images/img54.png)
 
-The height of the image did not change, but the width became 55 pixels narrower. We can see that the surfers and mountains in the background did not get removed, but "less important" parts of the image, namely the empty ocean, were carved out. You can see a detailed seam-by-seam progression of the seamcarving process by observing the images in `Carved-Image-Peyto\`, which contains images of Petyo Lake, and `Carved-Images`, which contains this surfing image.
+The height of the image did not change, but the width became 55 pixels narrower. We can see that the surfers and mountains in the background did not get removed, but "less important" parts of the image, namely the empty ocean, were carved out. You can see a detailed seam-by-seam progression of the seamcarving process by observing the images in `Carved-Image-Peyto\`, which contains images of Petyo Lake, and `Carved-Images\`, which contains the above surfing image.
