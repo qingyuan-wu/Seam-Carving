@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define N_SEAMS 50
+
 int main(){
     //surfing image testing. Image: HJoceanSmall.bmp
 
@@ -15,7 +17,7 @@ int main(){
 
     read_in_img(&im, "HJoceanSmall.bin");
     
-    for(int i = 0; i < 55; i++){
+    for(int i = 0; i < N_SEAMS; i++){
         printf("i = %d\n", i);
         
         calc_energy(im,  &grad);

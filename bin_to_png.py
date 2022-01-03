@@ -74,11 +74,11 @@ def recover_tests(from_dir):
 #     convert_folder(base_path, "./in", "./bins")
 #     # recover_tests("./outs")
 
-# Write a png image to bin
+### Write a png image to bin
 # image = Image.open("peyto.png")
 # write_image(image, "peyto.bin")
 
-# Write multiple images from bin to png
+### Write multiple images from bin to png
 for i in range(55):
     image = read_image("Carved-Images\\img%d.bin" % i)
     image.save("Carved-Images\\img%d.png" % i)
