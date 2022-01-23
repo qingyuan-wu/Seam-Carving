@@ -34,6 +34,7 @@ Seam carving is an image-resizing technique that removes one vertical "seam" of 
 
 ### Quick Demo
 ![gif of seam carving in progress](https://media.giphy.com/media/5QjK3u1iwzekPRxWtM/giphy.gif)
+
 Gif courtesy of Natalie Volk.
 
 Here are the before and after effects of seamcarving an image of people surfing in the ocean:
